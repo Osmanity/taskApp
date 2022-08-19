@@ -64,6 +64,7 @@ const App: React.FC = () => {
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="App">
         <span className='heading'> <span className='firstletter'>O</span>smanity </span>
+        <span className="heading">TaskApp</span>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         {/* {todos.map((todoCard) => (
         <li>{todoCard.todo}</li>
